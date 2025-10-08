@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Flight</title>
+        <style>
+
+        </style>
+    </head>
+    <body style="background-color: rgba(216, 92, 92, 0.765); color: azure;">
+        <header>
+            <figure>
+                <img 
+                src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/b4c020f3-289d-43d0-a879-b0b68e396949/239947_1000x397_500.png?format=1500w"
+                width="300"
+                alt="Restaurant Logo"
+                id="header-img"
+                />
+            </figure>
+            <h1>First Flight</h1>
+            <section>
+                <nav>
+                    <h2>#menu</h2>
+                    <h2>#order-form</h2>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <section>
+                <h2>Menu</h2>
+                <article>
+                    <h3>Brewery Burger</h3>
+                    <figure>
+                        <img
+                        src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/a607e87f-ddbc-4154-bed0-4240609868d5/244240_1024x683_2500.jpeg?format=500w"
+                        width="300"
+                        alt="Brewery Burger photo"
+                        />
+                    </figure>
+                    <p>8oz Kobe beef, bacon, white cheddar, beer battered onion ring, arugula, brioche bun. <i>25$</i></p>
+                </article>
+                <article>
+                    <h3>Black and Blue Salad</h3>
+                    <figure>
+                        <img
+                        src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/54b1215d-08ae-4ce8-85ef-edbbc9889265/244230_1024x683_2500.jpeg?format=500w"
+                        width="300"
+                        alt="Black and Blue Salad image"
+                        />
+                    </figure>
+                    <p>Blackened seasoned shrimp, fresh baby spinach, sliced strawberries, crumbled Blue cheese, toasted pecans, honey balsamic vinaigrette or Ranch Dressing. <i>18$</i></p>
+                </article>
+                <article>
+                    <h3>Key lime pie</h3>
+                    <figure>
+                        <img
+                        src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/a3b60197-21e2-4d26-b4f6-92a896d78517/244245_1024x683_2500.jpeg?format=500w"
+                        width="300"
+                        alt="Key Lime pie picture"
+                        />
+                    </figure>
+                    <p>House made key lime pie, with oreo cookie crust. <i>12$</i></p>
+                </article>
+            </section>
+            <section>
+                <h2>Make your order</h2>
+                <form>
+                    <label for="brewery">Brewery Burger</label>
+                    <input type="number" id="brewery" min="0" max="20"/>
+                    <br>
+                    <label for="bacon" >Bacon</label>
+                    <input type="checkbox" checked id="bacon"/>
+                    <br>
+                    <label for="cheddar" >White Cheddar</label>
+                    <input type="checkbox" checked id="cheddar"/>
+                    <br>
+                    <label for="onionring" >Onion Ring</label>
+                    <input type="checkbox" checked id="onionring"/>
+                    <br>
+                    <label for="arugula" >Arugula</label>
+                    <input type="checkbox" checked id="arugula"/>
+                    <br><br>
+                    
+                    <label for="b&bsalad">Black and Blue Salad</label>
+                    <input type="number" id="b&bsalad" min="0" max="20"/>
+                    <br>
+                    <label for="balsamic" >Honey Balsamic vinaigrette</label>
+                    <input form="balsamic" type="radio" name="b&bsaladdressing">
+                    <br>
+                    <label for="Ranch">Ranch Dressing</label>
+                    <input form="Ranch" type="radio" name="b&bsaladdressing">
+                    <br><br>
+                    
+                    <label for="keylimepie">Key Lime Pie</label>
+                    <input type="number" id="keylimepie" min="0" max="20"/>
+                    <br><br>
+                    
+                    <label for="specialrequests">Special Requests</label>
+                    <br>
+                    <textarea id="specialrequests" cols="20" rows="5">Suggest, allergies, etc </textarea>
+                    <br><br>
+                    <input type="submit" value="Go To Checkout">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made with love by Benjaa635 😎</p>
+        </footer>
+    </body>
+</html>

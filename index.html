@@ -1,109 +1,86 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>First Flight</title>
-        <style>
-
-        </style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Personal</title>
+    <link href="styles.css" rel="stylesheet" />
     </head>
-    <body style="background-color: rgba(216, 92, 92, 0.765); color: azure;">
-        <header>
-            <figure>
-                <img 
-                src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/b4c020f3-289d-43d0-a879-b0b68e396949/239947_1000x397_500.png?format=1500w"
-                width="300"
-                alt="Restaurant Logo"
-                id="header-img"
-                />
-            </figure>
-            <h1>First Flight</h1>
-            <section>
-                <nav>
-                    <a href="#menu">Menu</a>
-                    <a href="#order-form">Order Food</a>
-                </nav>
-            </section>
+    <body>
+        <header id="headerr">
+            <div>
+                <h1 id="h11">Benjamin</h1>
+                <h1 id="h12">Provera Rocha</h1>
+            </div>
+            <nav>
+                <a class="navs" href="#projecto">Projecto</a>
+                <a class="navs" href="#contacto">Contacto</a>
+            </nav>
+            <div id="divrex">
+                <img src="https://i.redd.it/uhd1ne42nbob1.jpg" id="rex">
+            </div>
         </header>
-        <main>
-            <section>
-                <h2 id="menu">Menu</h2>
-                <article>
-                    <h3>Brewery Burger</h3>
-                    <figure>
-                        <img
-                        src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/a607e87f-ddbc-4154-bed0-4240609868d5/244240_1024x683_2500.jpeg?format=500w"
-                        width="300"
-                        alt="Brewery Burger photo"
-                        />
-                    </figure>
-                    <p>8oz Kobe beef, bacon, white cheddar, beer battered onion ring, arugula, brioche bun. <i>25$</i></p>
-                </article>
-                <article>
-                    <h3>Black and Blue Salad</h3>
-                    <figure>
-                        <img
-                        src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/54b1215d-08ae-4ce8-85ef-edbbc9889265/244230_1024x683_2500.jpeg?format=500w"
-                        width="300"
-                        alt="Black and Blue Salad image"
-                        />
-                    </figure>
-                    <p>Blackened seasoned shrimp, fresh baby spinach, sliced strawberries, crumbled Blue cheese, toasted pecans, honey balsamic vinaigrette or Ranch Dressing. <i>18$</i></p>
-                </article>
-                <article>
-                    <h3>Key lime pie</h3>
-                    <figure>
-                        <img
-                        src="https://images.squarespace-cdn.com/content/v1/6175e5d942c1fd05ced92216/a3b60197-21e2-4d26-b4f6-92a896d78517/244245_1024x683_2500.jpeg?format=500w"
-                        width="300"
-                        alt="Key Lime pie picture"
-                        />
-                    </figure>
-                    <p>House made key lime pie, with oreo cookie crust. <i>12$</i></p>
-                </article>
-            </section>
-            <section>
-                <h2 id="order-form">Make your order</h2>
-                <form>
-                    <label for="brewery">Brewery Burger</label>
-                    <input type="number" id="brewery" min="0" max="20"/>
+    <main>
+        <br>
+        <div>
+        <h2>Sobre mi</h2>
+        <br>
+        <p>Hola, soy <b id="benja">Benja</b>. Tengo 19 años y soy de Córdoba, Argentina. Actualmente estoy aprendiendo programación, empecé con hace 2 años modificando archivos SQF (Arma3 scripting language) y luego Lua. En cuanto a los cursos decidi arrancar por Python, ahora estoy cursando CSS y un nivel superior de Python. Siempre me interesó todo lo relacionado con computadoras, y me gusta entender cómo funcionan las cosas por dentro. Me gustaría seguir por el lado de los videojuegos o la ciberseguridad, aunque también me atrae crear programas, etc.</p>
+        </div>
+        <br><br>
+        <div id="projecto">
+            <h2>Projecto</h2>
+            <br>
+            <div>
+                    <h3 id="after">AfterDays</h3>
                     <br>
-                    <label for="bacon" >Bacon</label>
-                    <input type="checkbox" checked id="bacon"/>
+                    <!-- Tutorial carrusel https://www.youtube.com/shorts/3KFCjEGbjQY -->
+                    <div class="carrusel">
+                        <div class="imagenes">
+                            <img src="https://cdn.discordapp.com/attachments/1258113758782558228/1286790808258875496/tqanananana.png?ex=6905c914&is=69047794&hm=51cb192a40a82b457387c45d2870943618b93072e5cc84e853ffff4723e3c97d&" alt="">
+                        </div>
+                        <div class="imagenes">
+                            <img src="https://media.discordapp.net/attachments/1258113758782558228/1284521302459285645/20240914112701_1.jpg?ex=6906192f&is=6904c7af&hm=c6e803c89358f1c9db889a67c70fe4d0fc79e02f23597fe0f115f304d28c42fe&=&format=webp&width=1964&height=1104">
+                        </div>
+                        <div class="imagenes">
+                            <img src="https://media.discordapp.net/attachments/1258113758782558228/1294388968250408990/20241011165347_1.jpg?ex=6905bdea&is=69046c6a&hm=1c9b4bb2b2fcb19dfdc38f802812ab6d351602c84fe12190fd0b611b8348338e&=&format=webp&width=1964&height=1104">
+                        </div>
+                        <div class="imagenes">
+                            <img src="https://media.discordapp.net/attachments/1258113741858406451/1385464503302619136/SPOILER_20250620000849_1.jpg?ex=69062a1e&is=6904d89e&hm=08e0ed485dd6bc0416b2666f0c6cbff7a5114cfb35a3e65d139c8f56d533a4fd&=&format=webp&width=1964&height=1104" alt="">
+                        </div>
+                    </div>
+                    <!-- Tutorial carrusel https://www.youtube.com/shorts/3KFCjEGbjQY -->
                     <br>
-                    <label for="cheddar" >White Cheddar</label>
-                    <input type="checkbox" checked id="cheddar"/>
+                    <p>
+                        AfterDay Es una comunidad de garrysmod (steam game), en ella hemos llevado a cabo varios servidores,
+                        entre estos AfterDaysRP, version 1/2/3, la cual se centraba en el modo principal de garrysmod DarkRP
+                        por otro lado tambien abrimos AfterDayTTT que era un servidor ligado al modo de juego Trouble in
+                        terrorist town. y por ultimo abrimos nuestro propio DeathMatch, al estilo half life.
+                    </p>
                     <br>
-                    <label for="onionring" >Onion Ring</label>
-                    <input type="checkbox" checked id="onionring"/>
-                    <br>
-                    <label for="arugula" >Arugula</label>
-                    <input type="checkbox" checked id="arugula"/>
-                    <br><br>
-                    
-                    <label for="b&bsalad">Black and Blue Salad</label>
-                    <input type="number" id="b&bsalad" min="0" max="20"/>
-                    <br>
-                    <label for="balsamic" >Honey Balsamic vinaigrette</label>
-                    <input form="balsamic" type="radio" name="b&bsaladdressing">
-                    <br>
-                    <label for="Ranch">Ranch Dressing</label>
-                    <input form="Ranch" type="radio" name="b&bsaladdressing">
-                    <br><br>
-                    
-                    <label for="keylimepie">Key Lime Pie</label>
-                    <input type="number" id="keylimepie" min="0" max="20"/>
-                    <br><br>
-                    
-                    <label for="specialrequests">Special Requests</label>
-                    <br>
-                    <textarea id="specialrequests" cols="20" rows="5">Suggest, allergies, etc </textarea>
-                    <br><br>
-                    <input type="submit" value="Go To Checkout">
-                </form>
-            </section>
-        </main>
-        <footer>
-            <p>Made with love by Benjaa635 😎</p>
-        </footer>
-    </body>
+                </div>
+        </div>
+        <div>
+            <h2>Contacto</h2>
+            <br>
+            <div id="contacto">
+                
+                <div>
+                    <a class="contact_href" target="_blank" href="https://discordapp.com/users/429716716331728896"><img class="socialmedia" src="https://pngimg.com/d/discord_PNG7.png">Discord</a>
+                </div>
+                <br>
+                <div>
+                    <a class="contact_href" target="_blank" href="https://github.com/Benjaa635"><img class="socialmedia" src="https://cdn-icons-png.flaticon.com/512/25/25231.png">Github</a>
+                </div>
+                <br>
+                <div>
+                    <a class="contact_href" target="_blank" href="https://www.codedex.io/@Benjaa635"><img class="socialmedia" src="https://www.codedex.io/images/codedex-bot-logo-compressed.gif">Codedex</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Page made by Benjaa635 | Codedex course | 11/2025</p>
+    </footer>
+</body>
 </html>
